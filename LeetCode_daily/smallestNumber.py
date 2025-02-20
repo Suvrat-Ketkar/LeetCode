@@ -1,6 +1,7 @@
 #2375 Construct Smallest Number From DI String
 # Date: 18/02/2025
 #Type: Daily Problem
+# Method used: Stack
 class Solution:
     def smallestNumber(self, pattern: str) -> str:
         stack = []  # Stack to maintain decreasing order

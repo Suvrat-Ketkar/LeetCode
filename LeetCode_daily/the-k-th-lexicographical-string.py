@@ -1,6 +1,7 @@
 #1415 The k-th Lexicographical String of All Happy Strings of Length n
 # Date: 19/02/2025
 #Type: Daily Problem
+# Method used: Recursion
 class Solution:
     def getHappyString(self, n: int, k: int) -> str:
         def find_happy_string(length, k, last_char):
